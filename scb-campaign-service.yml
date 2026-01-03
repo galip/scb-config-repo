@@ -4,8 +4,8 @@ spring:
 
 campaign:
   enabled: true
-  type: SEASONAL
-  discount-rate: 32
+  type: MONTHLY
+  discount-rate: 21
 
   response:
     message-prefix: "[CAMPAIGN]"
