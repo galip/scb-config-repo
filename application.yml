@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: global-config
+
+logging:
+  level:
+    root: INFO
+    org.springframework.cloud: INFO
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health, info, env

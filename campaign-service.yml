@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: campaign-service
+
+campaign:
+  enabled: true
+  type: SEASONAL
+  discount-rate: 20
+
+  response:
+    message-prefix: "[CAMPAIGN]"
+    include-discount: true
