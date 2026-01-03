@@ -1,12 +1,20 @@
 spring:
   application:
     name: scb-campaign-service
+  cloud:
+    bus:
+      enabled: true
 
 campaign:
   enabled: true
   type: MONTHLY
   discount-rate: 21
-
   response:
     message-prefix: "[CAMPAIGN]"
     include-discount: true
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,env,refresh,busrefresh
