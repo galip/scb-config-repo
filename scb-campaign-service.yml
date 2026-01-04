@@ -8,7 +8,7 @@ spring:
 campaign:
   enabled: true
   type: SPECIAL-CUSTOMER-3
-  discount-rate: 56
+  discount-rate: 57
   response:
     message-prefix: "[CAMPAIGN]"
     include-discount: true
