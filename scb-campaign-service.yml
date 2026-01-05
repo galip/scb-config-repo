@@ -11,7 +11,7 @@ campaign:
   discount-rate: 15
   response:
     message-prefix: "[CAMPAIGN]"
-    include-discount: true
+    include-discount: false
 
 management:
   endpoints:
