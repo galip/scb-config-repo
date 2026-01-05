@@ -7,8 +7,8 @@ spring:
 
 campaign:
   enabled: true
-  type: NEW-YEAR
-  discount-rate: 42
+  type: PERFECT
+  discount-rate: 70
   response:
     message-prefix: "[CAMPAIGN]"
     include-discount: true
