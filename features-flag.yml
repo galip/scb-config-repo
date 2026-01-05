@@ -1,3 +1,5 @@
+#Demo 2: Feature flags with Spring Cloud Config & Bus
+#I do not remove here for the next possible demo.
 features:
   verbose-logging: false
   experimental-response: false
