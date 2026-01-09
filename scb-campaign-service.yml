@@ -6,12 +6,12 @@ spring:
       enabled: true
 
 campaign:
-  enabled: false
-  type: FIXED
-  discount-rate: 20
+  enabled: true
+  type: PREMIUM
+  discount-rate: 45
   response:
     message-prefix: "[CAMPAIGN]"
-    include-discount: false
+    include-discount: true
 
 management:
   endpoints:
