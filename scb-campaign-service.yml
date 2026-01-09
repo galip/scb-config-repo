@@ -6,9 +6,9 @@ spring:
       enabled: true
 
 campaign:
-  enabled: false
-  type: PREMIUM
-  discount-rate: 45
+  enabled: true
+  type: SEASONAL
+  discount-rate: 15
   response:
     message-prefix: "[CAMPAIGN]"
     include-discount: true
