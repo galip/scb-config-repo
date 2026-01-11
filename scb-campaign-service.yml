@@ -6,12 +6,12 @@ spring:
       enabled: true
 
 campaign:
-  enabled: true
-  type: FIXED
-  discount-rate: 10
+  enabled: false
+  type: HAPPY-PATH
+  discount-rate: 20
   response:
-    message-prefix: "[CAMPAIGN-TEST]"
-    include-discount: false
+    message-prefix: "[CAMPAIGN]"
+    include-discount: true
 
 management:
   endpoints:
