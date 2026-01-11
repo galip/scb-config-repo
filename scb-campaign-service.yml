@@ -8,10 +8,10 @@ spring:
 campaign:
   enabled: true
   type: HAPPY-PATH
-  discount-rate: 36
+  discount-rate: 22
   response:
     message-prefix: "[CAMPAIGN]"
-    include-discount: false
+    include-discount: true
 
 management:
   endpoints:
