@@ -8,7 +8,7 @@ spring:
 campaign:
   enabled: true
   type: HAPPY-PATH
-  discount-rate: 25
+  discount-rate: 20
   response:
     message-prefix: "[CAMPAIGN]"
     include-discount: true
