@@ -7,7 +7,7 @@ logging:
     root: INFO
     org.springframework.cloud: INFO
     org.springframework.cloud.bus: DEBUG
-    org.springframework.amqp: DEBUG
+    org.springframework.amqp: INFO
 
 management:
   endpoints:
