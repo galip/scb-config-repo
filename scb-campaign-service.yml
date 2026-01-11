@@ -10,7 +10,7 @@ campaign:
   type: FIXED
   discount-rate: 10
   response:
-    message-prefix: "[CAMPAIGN]"
+    message-prefix: "[CAMPAIGN-TEST]"
     include-discount: false
 
 management:
