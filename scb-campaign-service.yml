@@ -6,11 +6,11 @@ spring:
       enabled: true
 
 campaign:
-  enabled: false
-  type: PREMIUM-TEST
-  discount-rate: 77
+  enabled: true
+  type: PREMIUM
+  discount-rate: 60
   response:
-    message-prefix: "[CAMPAIGN-TEST]"
+    message-prefix: "[CAMPAIGN]"
     include-discount: false
 
 management:
