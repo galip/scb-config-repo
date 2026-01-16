@@ -7,10 +7,10 @@ spring:
 
 campaign:
   enabled: true
-  type: SEASONAL-TEST
-  discount-rate: 55
+  type: PREMIUM
+  discount-rate: 75
   response:
-    message-prefix: "[CAMPAIGN-2]"
+    message-prefix: "[CAMPAIGN]"
     include-discount: true
 
 management:
