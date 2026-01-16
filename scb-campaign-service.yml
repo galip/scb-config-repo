@@ -7,11 +7,11 @@ spring:
 
 campaign:
   enabled: true
-  type: PREMIUM
-  discount-rate: 60
+  type: SEASONAL
+  discount-rate: 45
   response:
     message-prefix: "[CAMPAIGN]"
-    include-discount: false
+    include-discount: true
 
 management:
   endpoints:
